@@ -1,38 +1,48 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Contact Page</title>
-</head>
-<body>
-    <h1>Contact Us</h1>
-    <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html" class="active">Contact</a></li>
-        </ul>
-        </ul>
-      </nav>
-      <script src="index.js"></script>
-    <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
-        
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
-        
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea><br><br>
-        
-        <label for="reason">Reason for Contact:</label>
-        <select id="reason" name="reason">
-            <option value="saying hi">Saying Hi</option>
-            <option value="looking for a contractor">Looking for a Contractor</option>
-            <option value="interested in an interview">Interested in an Interview</option>
-        </select><br><br>
-        
-        <input type="submit" value="Submit">
-    </form>
-    </form>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Homepage</title>
+        <link rel="stylesheet" href="screen.css">
+    </head>
+    <body>
+        <header>
+            <h1>Contact Me</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <p>
+                If you would like to get in touch, just fill out the form below!
+            </p>
+        </section>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea><br><br>
+            
+            <label for="reason">Reason for Contact:</label>
+            <select id="reason" name="reason">
+                <option value="saying hi">Saying Hi</option>
+                <option value="looking for a contractor">Looking for a Contractor</option>
+                <option value="interested in an interview">Interested in an Interview</option>
+            </select><br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+        </form>
+        <script src="index.js"></script>
+    </body>
 </html>
