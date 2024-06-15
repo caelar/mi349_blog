@@ -40,6 +40,7 @@ nav ul {
 nav li {
     margin-left: 10px;
 }
+
 a:link {
     color: rgb(0, 0, 0);
 }
@@ -166,4 +167,10 @@ form input, form textarea {
     .form-row {
         flex-direction: column;
     }
+}
+
+.news {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
