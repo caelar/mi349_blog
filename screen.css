@@ -60,12 +60,13 @@ a:link, a:visited {
     text-decoration: none;
 }
 
-#blog {
+#newsletter {
     border-top: 1px solid #ccc;
+
 }
 
 .blog-post {
-    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
 }
 
 #blog img {
@@ -135,6 +136,7 @@ a:link, a:visited {
     gap: 20px;
     justify-content: center;
 }
+
 
 form {
     display: flex;
