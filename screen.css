@@ -67,8 +67,44 @@ a:link, a:visited {
     border-bottom: 1px solid #ccc;
 }
 
-#blog form {
+#blog img {
+    width: 300px;
+}
+
+
+#blog .pers {
+    float: right;
+    gap: 10px;
     padding: 20px;
+    width: 300px; 
+}
+
+#blog .stats {
+    float: right;
+    gap: 10px;
+    padding: 20px;
+    width: 300px; 
+}
+
+.stats p {
+    text-align: center;
+}
+
+
+#blog .heading1 {
+    display: flex;
+    width: 100%;
+    background-color: #edededba;
+}
+
+#blog .text {
+    align-self: flex-end;
+    padding: 20px;
+}
+
+#newsletter {
+    padding-top: 20px;
+
 }
 
 
@@ -93,3 +129,41 @@ a:link, a:visited {
     border-radius: 50%;
 }
 
+.contact-info {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.form-row > * {
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .form-row {
+        flex-direction: column;
+    }
+}
